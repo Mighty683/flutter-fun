@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_fun/components/atom/nucleon.dart';
 import 'package:simple_animations/simple_animations.dart';
 

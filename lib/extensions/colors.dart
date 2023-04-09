@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ColorsTheme {
-  // NEW THEME
   final Color primary;
   final Color secondary;
 
-  ColorsTheme({required this.primary, required this.secondary});
+  const ColorsTheme({required this.primary, required this.secondary});
 
   static ColorsTheme of(BuildContext context) {
     final ColorsProvider result =
