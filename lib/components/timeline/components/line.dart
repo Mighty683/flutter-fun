@@ -1,5 +1,4 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_fun/components/timeline/event.dart';
 import 'package:flutter_fun/extensions/colors.dart';
 import 'package:flutter_fun/extensions/style.dart';
 

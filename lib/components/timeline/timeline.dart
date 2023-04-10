@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_fun/components/timeline/event.dart';
-import 'package:flutter_fun/components/timeline/line.dart';
+import 'package:flutter_fun/components/timeline/data/event.dart';
+import 'package:flutter_fun/components/timeline/components/line.dart';
 import 'package:flutter_fun/extensions/style.dart';
 
 class Timeline extends StatelessWidget {
