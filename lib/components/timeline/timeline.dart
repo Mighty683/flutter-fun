@@ -11,14 +11,12 @@ class Timeline extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var theme = StyleTheme.of(context);
-    return Container(
-      child: Stack(children: [
-        Expanded(
-            child: Padding(
-          padding: EdgeInsets.all(theme.spacing.small),
-          child: Line(),
-        ))
-      ]),
-    );
+    return Stack(children: [
+      Expanded(
+          child: Padding(
+        padding: EdgeInsets.all(theme.spacing.small),
+        child: Line(),
+      ))
+    ]);
   }
 }

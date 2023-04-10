@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:flutter_fun/extensions/colors.dart';
 import 'package:flutter_fun/extensions/style.dart';
@@ -14,7 +16,7 @@ class AppRoot extends StatelessWidget {
         colors: const ColorsTheme(primary: Colors.blue, secondary: Colors.red),
         child: MaterialApp(
           title: 'Flutter Fun',
-          routes: {HomePage.path: (context) => HomePage()},
+          routes: {HomePage.path: (context) => const HomePage()},
           initialRoute: HomePage.path,
         ),
       ),
